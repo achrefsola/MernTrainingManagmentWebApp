@@ -1,0 +1,39 @@
+/* TrainerPanel.css */
+
+  
+  .trainer-info {
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #343a40; /* Dark background color for card header */
+    color: #ffffff; /* Light text color for card header */
+  }
+  
+  .table th,
+  .table td {
+    border-top: none; /* Remove top border from table cells */
+  }
+  /* TrainerPanel.css */
+.card {
+  margin-bottom: 20px;
+  max-height: 300px; /* Adjust the max-height as needed */
+  width: 500px;
+   /* Add vertical scrollbar if content exceeds max height */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+.card-header{
+  height: 55px;
+}
